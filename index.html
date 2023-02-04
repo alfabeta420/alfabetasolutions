@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Charset -->
+        <meta charset="utf-8">
+        <!-- Stylesheets -->
+        <link rel="stylesheet" href="/assets/css/styles.css">
+        <!-- Title -->
+        <title>root@alfabeta.solutions:/# Home</title>
+        <!-- Embeds -->
+        <meta content="Alfabeta.solutions" property="og:title" />
+        <meta content="All my open source/paid projects!" property="og:description" />
+        <meta content="https://alfabeta.solutions/" property="og:url" />
+        <meta content="#010101" data-react-helmet="true" name="theme-color" />
+        <meta property="twitter:card" content="summary_large_image">
+        <meta property="og:image" content="https://media.discordapp.net/attachments/518119814502547485/1012323136047435876/banner.gif">
+        <meta property="og:image:type" content="image/gif">
+        <!-- Icon -->
+        <link rel="icon" type="image/png" href="/assets/img/alfabeta.png" />
+        <!-- Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&family=Ubuntu:wght@300;400&display=swap" rel="stylesheet">
+        <!-- Scripts -->
+        <script src="https://kit.fontawesome.com/585893530f.js" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="/assets/js/disabler.js"></script>
+    </head>
+    <body ondragstart="return false;" ondrop="return false;" oncontextmenu="return false;" onkeydown="if (event.keyCode == 123)return false;else if (event.ctrlKey && event.shiftKey && event.keyCode == 73)return false;else if (event.ctrlKey && event.keyCode == 73)return false;else if (event.ctrlKey && event.shiftKey && event.keyCode == 74)return false;else if (event.ctrlKey && event.keyCode == 74)return false;else if (event.ctrlKey && event.keyCode == 85)return false;else if (event.keyCode == 93)return false;else if (event.keyCode == 85)return false;if (event.keyCode == 32)return togglePlay()">
+        <div id="container">
+            <a title="My Github" href="https://github.com/alfabeta420" target="_blank" class="header"><h1 class="animate__animated animate__pulse header">Alfabeta.solutions <i class="fa-brands fa-github"></i></h1></a>
+            <div class="content1">
+                <div class="img1"></div>
+                <p class="title"><b>Optifine capesystem <i class="fa-brands fa-python"></i></b></p>
+                <p class="description">Custom optifine capes based on hosts<br>file managed by advanced Discord bot!</p>
+                <a href="/download/capesystem/capesystem.7z" title="Click to download"><div class="download"><b>Download</b></div></a>
+            </div>
+        </div>
+        <div id="audio">
+            <audio id="player" loop>
+                <source src="/assets/others/music.mp3" type="audio/mpeg">
+            </audio>
+            <i id="toggle" onclick="togglePlay()" class="fa-solid fa-play play"></i>
+            <input class="volume" type="range" value="1" id="vol" max="1" min="0" step="0.01" oninput="changevolume(this.value)" onchange="changevolume(this.value)" />
+
+            <script src="/assets/js/music.js"></script>
+        </div>
+        <div class="sisl">
+            <b>simon is short label</b>
+        </div>
+    </body>
+</html>
