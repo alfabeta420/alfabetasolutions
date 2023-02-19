@@ -4,6 +4,7 @@ function changevolume(amount) {
   }
 
 var myAudio = document.getElementById("player");
+myAudio.volume = 0.5;
 var isPlaying = false;
 
 function togglePlay() {
